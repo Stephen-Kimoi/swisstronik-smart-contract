@@ -2,6 +2,7 @@
 pragma solidity ^0.8.9;
 
 contract VotingSystem {
+    string private title; 
     address private owner;
     uint256 private totalVotes;
     
@@ -24,7 +25,8 @@ contract VotingSystem {
         _;
     }
 
-    constructor() {
+    constructor(string memory _title) {
+        title = _title; 
         owner = msg.sender;
     }
     
