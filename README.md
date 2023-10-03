@@ -2,9 +2,7 @@
 
 The contract address is: 0x0B73D490fF0368B4bDF6137F82afAC21E1FB5625 
 
-Certainly! Below is a Markdown format documentation for your "VotingSystem" smart contract:
-
-### Documentation
+### Documentation 
 
 The `VotingSystem` smart contract is designed to facilitate a basic voting system on the Ethereum blockchain. This contract ensures that only registered voters can cast their votes and maintains a record of the total votes cast.
 
